@@ -4,7 +4,7 @@ public class Main {
     public static void main(String[] args) {
 
         Transport bmw = new Transport();
-        bmw.setValues(250.5f, 2500, "Whit",new byte[] {0, 0, 0});
+        bmw.setValues(250.5f, 2500, "Whithe",new byte[] {0, 0, 0});
         String res1 = bmw.getValues();
         System.out.println(res1);
 //        bmw.speed = 250.5f;
